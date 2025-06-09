@@ -35,10 +35,18 @@ public class Student {
         this.daysAbsent = daysAbsent;
     }
 
+
     public String toString() {
         return name + " " + grade;
     }
 
+
+
     // Add a void method called addAbsence that increments the daysAbsent field by 1.
+
+    public void addAbsence() { daysAbsent++; }
+
     // Add a void method called addBonusPoints that takes a double parameter bonusPoints and adds it to the grade field.
+
+    public void addBonusPoints(double bonusPoints) { grade += bonusPoints; }
 }
